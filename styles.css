@@ -15,18 +15,25 @@ body {
 
 }
 
-button {
-    height:2.5rem;
-    width:2.5rem;
-    border: none;
-}
 
 
 .row-one,
 .row-two,
 .row-three {
     display: flex;
+    width: 100vw;
+    height:200px;
+    align-items: center;
+    justify-content: center;
+    background-color:grey;
 }
+
+button {
+    width:200px;
+    height: 100%;
+}
+
+
 
 
 
