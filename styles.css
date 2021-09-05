@@ -76,3 +76,7 @@ button {
 .brown {
     background-color: brown;
 }
+
+.pressed {
+    opacity: 0.2;
+}

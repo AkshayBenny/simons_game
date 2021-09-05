@@ -1,4 +1,21 @@
-pressedBtnArray = [];
+//Generate pattern
+btnList = ["violet", "indigo", "blue","green", "yellow", "orange", "red", "pink", "brown"];
+pattern = [];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var pressedBtnArray = [];
 var buttonArray = document.querySelectorAll("button");
 for (var i = 0; i < buttonArray.length; i++) {
     buttonArray[i].addEventListener("click",function(){
