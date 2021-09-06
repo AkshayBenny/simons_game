@@ -1,8 +1,15 @@
 //Generate pattern
-btnList = ["violet", "indigo", "blue","green", "yellow", "orange", "red", "pink", "brown"];
-pattern = [];
+
+function chooseColor {
+    var btnList = ["violet", "indigo", "blue","green", "yellow", "orange", "red", "pink", "brown"];
+    var randColor = [];
+
+    var randNum = Math.ceil(Math.random()*9);
+    randColor = btnList[randNum];
+    
 
 
+}
 
 
 
