@@ -1,16 +1,19 @@
-//Generate pattern
-
 function chooseColor() {
-    var btnList = ["violet", "indigo", "blue","green", "yellow", "orange", "red", "pink", "brown"];
+    var btnList = ["violet", "indigo", "blue", "green", "yellow", "orange", "red", "pink", "brown"];
     var randColor = [];
 
     var randNum = Math.floor(Math.random()*9);
-    randColor.push(btnList[randNum]);
+    return randColor.push(btnList[randNum]);
+}//choose color
+
+for (var i = 0; i < 9; i ++) {
+    if (document.querySelectorAll("button")[i].value() == randColor) {
+        document.querySelectorAll("button")[i].classList.add("pressed");
+        setTimeout(document.querySelectorAll("button")[i].classList.remove("pressed"), 200);
+        
+    }
     
-
-
 }
-
 
 
 
