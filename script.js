@@ -17,7 +17,7 @@ while (level < n) {
     $("button[value = randColor[level]]").classList.add("pressed");
     setTimeout(function () {
         $("button[value = randColor[level]]").classList.remove("pressed");
-    }, 200);
+    }, 300);
 
 
     //get the array of pressed buttons
