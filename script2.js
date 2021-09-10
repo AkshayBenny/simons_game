@@ -27,7 +27,7 @@ function pressedBtn() {
 }
 var pressedBtnArray = []
 pressedBtnArray.push(pressedBtn())
-console.log(pressedBtnArray)
+
 
 
 
